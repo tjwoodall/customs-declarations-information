@@ -27,7 +27,7 @@ The Customs Declarations Information service can be run locally from Service Man
 This repository does not have any associated Acceptance Tests.
 
 ### Performance Tests
-To run performance tests, see [here](https://github.com/hmrc/customs-notification-gateway-performance-test).
+To run performance tests, see [here](https://github.com/hmrc/customs-declaration-performance-test).
 
 
 ## API documentation
