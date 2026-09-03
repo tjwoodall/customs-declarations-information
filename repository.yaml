@@ -4,3 +4,4 @@ description: The Customs Declarations Information API can be used to request the
 test-repositories:
   - customs-declaration-performance-test
   - customs-automation-test
+serviceNowMapping: SNSVC0019200
