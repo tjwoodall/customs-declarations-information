@@ -862,7 +862,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DAN'
+            $ref: "#/components/schemas/DAN"
         DutyTaxFee:
           type: array
           description: ""
@@ -872,7 +872,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee3'
+            $ref: "#/components/schemas/DutyTaxFee3"
       description: ""
       xml:
         name: AccountDetails
@@ -1045,7 +1045,7 @@ components:
             wrapped: false
         Submitter:
           allOf:
-          - $ref: '#/components/schemas/Submitter1'
+          - $ref: "#/components/schemas/Submitter1"
           - description: "17B\n                                \r\n\n            \
               \                      X"
             xml:
@@ -1056,7 +1056,7 @@ components:
               wrapped: false
         WriteOff:
           allOf:
-          - $ref: '#/components/schemas/WriteOff'
+          - $ref: "#/components/schemas/WriteOff"
           - description: 22C
             xml:
               name: WriteOff
@@ -1135,7 +1135,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Pointer'
+            $ref: "#/components/schemas/Pointer"
       description: |-
         03A
         X
@@ -1684,7 +1684,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -1731,7 +1731,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Pointer'
+            $ref: "#/components/schemas/Pointer"
       description: |-
         06A
         X
@@ -1879,7 +1879,7 @@ components:
             wrapped: false
         Authenticator:
           allOf:
-          - $ref: '#/components/schemas/Authenticator'
+          - $ref: "#/components/schemas/Authenticator"
           - description: |-
               12A
 
@@ -2083,7 +2083,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -2108,7 +2108,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Contact'
+            $ref: "#/components/schemas/Contact"
         Communication:
           type: array
           description: |-
@@ -2122,7 +2122,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Communication'
+            $ref: "#/components/schemas/Communication"
       description: |-
         16A
 
@@ -2160,7 +2160,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -2274,7 +2274,7 @@ components:
             wrapped: false
         OtherChargeDeductionAmount:
           allOf:
-          - $ref: '#/components/schemas/OtherChargeDeductionAmount'
+          - $ref: "#/components/schemas/OtherChargeDeductionAmount"
           - description: "181\n                                      \r\n\n      \
               \                                  5004"
             xml:
@@ -2339,7 +2339,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee1'
+            $ref: "#/components/schemas/DutyTaxFee1"
       description: |-
         23A
         X
@@ -2364,7 +2364,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee11'
+            $ref: "#/components/schemas/DutyTaxFee11"
       description: |-
         23A
         X
@@ -2398,7 +2398,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Classification'
+            $ref: "#/components/schemas/Classification"
         DangerousGoods:
           type: array
           description: "12C\n                                \r\n\n              \
@@ -2409,7 +2409,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DangerousGoods'
+            $ref: "#/components/schemas/DangerousGoods"
         DutyTaxFee:
           type: array
           description: "50A\n                                \r\n\n              \
@@ -2420,10 +2420,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee21'
+            $ref: "#/components/schemas/DutyTaxFee21"
         GoodsMeasure:
           allOf:
-          - $ref: '#/components/schemas/GoodsMeasure'
+          - $ref: "#/components/schemas/GoodsMeasure"
           - description: "65A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -2434,7 +2434,7 @@ components:
               wrapped: false
         InvoiceLine:
           allOf:
-          - $ref: '#/components/schemas/InvoiceLine'
+          - $ref: "#/components/schemas/InvoiceLine"
           - description: "79A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -2453,7 +2453,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/TransportEquipment1'
+            $ref: "#/components/schemas/TransportEquipment1"
       description: |-
         23A
 
@@ -2526,7 +2526,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -2555,7 +2555,7 @@ components:
       properties:
         Carrier:
           allOf:
-          - $ref: '#/components/schemas/Carrier'
+          - $ref: "#/components/schemas/Carrier"
           - description: |-
               18A
 
@@ -2580,10 +2580,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ConsignmentItem'
+            $ref: "#/components/schemas/ConsignmentItem"
         Consignor:
           allOf:
-          - $ref: '#/components/schemas/Consignor1'
+          - $ref: "#/components/schemas/Consignor1"
           - description: |-
               30A
 
@@ -2597,7 +2597,7 @@ components:
               wrapped: false
         Freight:
           allOf:
-          - $ref: '#/components/schemas/Freight'
+          - $ref: "#/components/schemas/Freight"
           - description: |-
               62A
 
@@ -2622,7 +2622,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Itinerary'
+            $ref: "#/components/schemas/Itinerary"
       description: |-
         28A
 
@@ -2651,7 +2651,7 @@ components:
             wrapped: false
         ArrivalTransportMeans:
           allOf:
-          - $ref: '#/components/schemas/ArrivalTransportMeans'
+          - $ref: "#/components/schemas/ArrivalTransportMeans"
           - description: |-
               10A
 
@@ -2665,7 +2665,7 @@ components:
               wrapped: false
         DepartureTransportMeans:
           allOf:
-          - $ref: '#/components/schemas/DepartureTransportMeans'
+          - $ref: "#/components/schemas/DepartureTransportMeans"
           - description: |-
               46A
 
@@ -2679,7 +2679,7 @@ components:
               wrapped: false
         GoodsLocation:
           allOf:
-          - $ref: '#/components/schemas/GoodsLocation'
+          - $ref: "#/components/schemas/GoodsLocation"
           - description: |-
               64A
 
@@ -2693,7 +2693,7 @@ components:
               wrapped: false
         LoadingLocation:
           allOf:
-          - $ref: '#/components/schemas/LoadingLocation'
+          - $ref: "#/components/schemas/LoadingLocation"
           - description: |-
               83A
 
@@ -2718,7 +2718,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/TransportEquipment'
+            $ref: "#/components/schemas/TransportEquipment"
       description: |-
         28A
 
@@ -2749,7 +2749,7 @@ components:
             wrapped: false
         Consignor:
           allOf:
-          - $ref: '#/components/schemas/Consignor'
+          - $ref: "#/components/schemas/Consignor"
           - description: |-
               30A
 
@@ -2763,7 +2763,7 @@ components:
               wrapped: false
         Freight:
           allOf:
-          - $ref: '#/components/schemas/Freight'
+          - $ref: "#/components/schemas/Freight"
           - description: |-
               62A
 
@@ -2816,7 +2816,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address1'
+          - $ref: "#/components/schemas/Address1"
           - description: "04A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -2862,7 +2862,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address2'
+          - $ref: "#/components/schemas/Address2"
           - description: |-
               04A
 
@@ -2911,7 +2911,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -2964,7 +2964,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: "04A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -3016,7 +3016,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString2'
+          - $ref: "#/components/schemas/DateTimeString2"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/retrieveDeclarationVersion
@@ -3036,7 +3036,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -3094,7 +3094,7 @@ components:
       properties:
         DeclarationStatusResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationStatusResponse'
+          - $ref: "#/components/schemas/DeclarationStatusResponse"
           - xml:
               name: DeclarationStatusResponse
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -3108,7 +3108,7 @@ components:
       properties:
         DeclarationStatusResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationStatusResponse'
+          - $ref: "#/components/schemas/DeclarationStatusResponse"
           - xml:
               name: DeclarationStatusResponse
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -3122,7 +3122,7 @@ components:
       properties:
         DeclarationFullResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationFullResponse'
+          - $ref: "#/components/schemas/DeclarationFullResponse"
           - xml:
               name: DeclarationFullResponse
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -3136,7 +3136,7 @@ components:
       properties:
         DeclarationStatusResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationStatusResponse'
+          - $ref: "#/components/schemas/DeclarationStatusResponse"
           - xml:
               name: DeclarationStatusResponse
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -3150,7 +3150,7 @@ components:
       properties:
         DeclarationVersionResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationVersionResponse'
+          - $ref: "#/components/schemas/DeclarationVersionResponse"
           - xml:
               name: DeclarationVersionResponse
               namespace: http://gov.uk/customs/retrieveDeclarationVersion
@@ -3164,7 +3164,7 @@ components:
       properties:
         DeclarationSearchResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationSearchResponse'
+          - $ref: "#/components/schemas/DeclarationSearchResponse"
           - xml:
               name: DeclarationSearchResponse
               namespace: http://gov.uk/customs/declarationInformationRetrieval/declarationSummary/v1
@@ -3178,7 +3178,7 @@ components:
       properties:
         DeclarationStatusResponse:
           allOf:
-          - $ref: '#/components/schemas/DeclarationStatusResponse'
+          - $ref: "#/components/schemas/DeclarationStatusResponse"
           - xml:
               name: DeclarationStatusResponse
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -3212,7 +3212,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ChargeDeduction'
+            $ref: "#/components/schemas/ChargeDeduction"
       description: |-
         41A
 
@@ -3248,7 +3248,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ChargeDeduction1'
+            $ref: "#/components/schemas/ChargeDeduction1"
       description: |-
         41A
 
@@ -3299,7 +3299,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Type'
+            $ref: "#/components/schemas/Type"
       description: ""
       xml:
         name: DAN
@@ -3350,7 +3350,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -3441,7 +3441,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -3466,7 +3466,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Contact'
+            $ref: "#/components/schemas/Contact"
         Communication:
           type: array
           description: |-
@@ -3480,7 +3480,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Communication'
+            $ref: "#/components/schemas/Communication"
       description: |-
         57B
         X
@@ -3494,7 +3494,7 @@ components:
       title: Declaration
       description: ""
       allOf:
-      - $ref: '#/components/schemas/TraderNotificationResponseDeclaration'
+      - $ref: "#/components/schemas/TraderNotificationResponseDeclaration"
       - required:
         - ICS
         - LRN
@@ -3502,7 +3502,7 @@ components:
         properties:
           ReceivedDateTime:
             allOf:
-            - $ref: '#/components/schemas/ReceivedDateTime'
+            - $ref: "#/components/schemas/ReceivedDateTime"
             - description: an..35
               xml:
                 name: ReceivedDateTime
@@ -3512,7 +3512,7 @@ components:
                 wrapped: false
           GoodsReleasedDateTime:
             allOf:
-            - $ref: '#/components/schemas/GoodsReleasedDateTime'
+            - $ref: "#/components/schemas/GoodsReleasedDateTime"
             - description: an..35
               xml:
                 name: GoodsReleasedDateTime
@@ -3561,14 +3561,14 @@ components:
       title: Declaration1
       description: ""
       allOf:
-      - $ref: '#/components/schemas/TraderNotificationResponseDeclaration1'
+      - $ref: "#/components/schemas/TraderNotificationResponseDeclaration1"
       - required:
         - ICS
         type: object
         properties:
           ReceivedDateTime:
             allOf:
-            - $ref: '#/components/schemas/ReceivedDateTime1'
+            - $ref: "#/components/schemas/ReceivedDateTime1"
             - description: an..35
               xml:
                 name: ReceivedDateTime
@@ -3578,7 +3578,7 @@ components:
                 wrapped: false
           GoodsReleasedDateTime:
             allOf:
-            - $ref: '#/components/schemas/GoodsReleasedDateTime1'
+            - $ref: "#/components/schemas/GoodsReleasedDateTime1"
             - description: an..35
               xml:
                 name: GoodsReleasedDateTime
@@ -3629,14 +3629,14 @@ components:
       title: Declaration2
       description: ""
       allOf:
-      - $ref: '#/components/schemas/TraderNotificationResponseDeclaration2'
+      - $ref: "#/components/schemas/TraderNotificationResponseDeclaration2"
       - required:
         - LRN
         type: object
         properties:
           CreatedDateTime:
             allOf:
-            - $ref: '#/components/schemas/CreatedDateTime'
+            - $ref: "#/components/schemas/CreatedDateTime"
             - description: an..35
               xml:
                 name: CreatedDateTime
@@ -3793,7 +3793,7 @@ components:
             wrapped: false
         InvoiceAmount:
           allOf:
-          - $ref: '#/components/schemas/InvoiceAmount'
+          - $ref: "#/components/schemas/InvoiceAmount"
           - description: |-
               109
               5072
@@ -3816,7 +3816,7 @@ components:
             wrapped: false
         TotalGrossMassMeasure:
           allOf:
-          - $ref: '#/components/schemas/TotalGrossMassMeasure'
+          - $ref: "#/components/schemas/TotalGrossMassMeasure"
           - description: |-
               131
               6092
@@ -3850,7 +3850,7 @@ components:
             wrapped: false
         Authentication:
           allOf:
-          - $ref: '#/components/schemas/Authentication'
+          - $ref: "#/components/schemas/Authentication"
           - description: |-
               61B
               X
@@ -3862,7 +3862,7 @@ components:
               wrapped: false
         Submitter:
           allOf:
-          - $ref: '#/components/schemas/Submitter'
+          - $ref: "#/components/schemas/Submitter"
           - description: |-
               17B
               X
@@ -3883,7 +3883,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AdditionalDocument'
+            $ref: "#/components/schemas/AdditionalDocument"
         AdditionalInformation:
           type: array
           description: |-
@@ -3895,10 +3895,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AdditionalInformation'
+            $ref: "#/components/schemas/AdditionalInformation"
         Agent:
           allOf:
-          - $ref: '#/components/schemas/Agent'
+          - $ref: "#/components/schemas/Agent"
           - description: |-
               05A
               X
@@ -3919,7 +3919,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Amendment'
+            $ref: "#/components/schemas/Amendment"
         AuthorisationHolder:
           type: array
           description: 17C
@@ -3929,10 +3929,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AuthorisationHolder'
+            $ref: "#/components/schemas/AuthorisationHolder"
         BorderTransportMeans:
           allOf:
-          - $ref: '#/components/schemas/BorderTransportMeans'
+          - $ref: "#/components/schemas/BorderTransportMeans"
           - description: |-
               15A
               X
@@ -3944,7 +3944,7 @@ components:
               wrapped: false
         Consignment:
           allOf:
-          - $ref: '#/components/schemas/Consignment'
+          - $ref: "#/components/schemas/Consignment"
           - description: |-
               28A
 
@@ -3967,10 +3967,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/CurrencyExchange'
+            $ref: "#/components/schemas/CurrencyExchange"
         Declarant:
           allOf:
-          - $ref: '#/components/schemas/Declarant'
+          - $ref: "#/components/schemas/Declarant"
           - description: |-
               57B
               X
@@ -3982,7 +3982,7 @@ components:
               wrapped: false
         ExitOffice:
           allOf:
-          - $ref: '#/components/schemas/ExitOffice'
+          - $ref: "#/components/schemas/ExitOffice"
           - description: |-
               56A
 
@@ -3996,7 +3996,7 @@ components:
               wrapped: false
         Exporter:
           allOf:
-          - $ref: '#/components/schemas/Exporter'
+          - $ref: "#/components/schemas/Exporter"
           - description: |-
               57A
               X
@@ -4008,7 +4008,7 @@ components:
               wrapped: false
         GoodsShipment:
           allOf:
-          - $ref: '#/components/schemas/GoodsShipment2'
+          - $ref: "#/components/schemas/GoodsShipment2"
           - description: |-
               67A
               X
@@ -4027,10 +4027,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ObligationGuarantee2'
+            $ref: "#/components/schemas/ObligationGuarantee2"
         PresentationOffice:
           allOf:
-          - $ref: '#/components/schemas/PresentationOffice'
+          - $ref: "#/components/schemas/PresentationOffice"
           - description: 15C
             xml:
               name: PresentationOffice
@@ -4040,7 +4040,7 @@ components:
               wrapped: false
         SupervisingOffice:
           allOf:
-          - $ref: '#/components/schemas/SupervisingOffice'
+          - $ref: "#/components/schemas/SupervisingOffice"
           - description: 97B
             xml:
               name: SupervisingOffice
@@ -4063,7 +4063,7 @@ components:
       properties:
         FullDeclarationDataDetails:
           allOf:
-          - $ref: '#/components/schemas/FullDeclarationDataDetails'
+          - $ref: "#/components/schemas/FullDeclarationDataDetails"
           - xml:
               name: FullDeclarationDataDetails
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -4085,7 +4085,7 @@ components:
       properties:
         Declaration:
           allOf:
-          - $ref: '#/components/schemas/Declaration'
+          - $ref: "#/components/schemas/Declaration"
           - xml:
               name: Declaration
               namespace: http://gov.uk/customs/declarationInformationRetrieval/declarationSummary/v1
@@ -4117,7 +4117,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DeclarationSearchDetails'
+            $ref: "#/components/schemas/DeclarationSearchDetails"
         CurrentPageNumber:
           type: integer
           format: int32
@@ -4168,7 +4168,7 @@ components:
       properties:
         Declaration:
           allOf:
-          - $ref: '#/components/schemas/Declaration1'
+          - $ref: "#/components/schemas/Declaration1"
           - xml:
               name: Declaration
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -4197,7 +4197,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DeclarationStatusDetails'
+            $ref: "#/components/schemas/DeclarationStatusDetails"
       description: ""
       xml:
         name: DeclarationStatusResponse
@@ -4213,7 +4213,7 @@ components:
       properties:
         Declaration:
           allOf:
-          - $ref: '#/components/schemas/Declaration2'
+          - $ref: "#/components/schemas/Declaration2"
           - xml:
               name: Declaration
               namespace: http://gov.uk/customs/retrieveDeclarationVersion
@@ -4242,7 +4242,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DeclarationVersionDetails'
+            $ref: "#/components/schemas/DeclarationVersionDetails"
       description: ""
       xml:
         name: DeclarationVersionResponse
@@ -4511,7 +4511,7 @@ components:
       properties:
         Payment:
           allOf:
-          - $ref: '#/components/schemas/Payment'
+          - $ref: "#/components/schemas/Payment"
           - description: |-
               94A
               X
@@ -4600,7 +4600,7 @@ components:
             wrapped: false
         Payment:
           allOf:
-          - $ref: '#/components/schemas/Payment1'
+          - $ref: "#/components/schemas/Payment1"
           - description: |-
               94A
               X
@@ -4625,7 +4625,7 @@ components:
       properties:
         Payment:
           allOf:
-          - $ref: '#/components/schemas/Payment2'
+          - $ref: "#/components/schemas/Payment2"
           - description: |-
               94A
               X
@@ -4767,7 +4767,7 @@ components:
             wrapped: false
         Payment:
           allOf:
-          - $ref: '#/components/schemas/Payment11'
+          - $ref: "#/components/schemas/Payment11"
           - description: |-
               94A
               X
@@ -4799,7 +4799,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/TaxBase'
+            $ref: "#/components/schemas/TaxBase"
         TaxType:
           type: array
           description: ""
@@ -4851,7 +4851,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/VATRate'
+            $ref: "#/components/schemas/VATRate"
       description: ""
       xml:
         name: DutyTaxFee
@@ -4912,7 +4912,7 @@ components:
             wrapped: false
         SpecificTaxBaseQuantity:
           allOf:
-          - $ref: '#/components/schemas/SpecificTaxBaseQuantity'
+          - $ref: "#/components/schemas/SpecificTaxBaseQuantity"
           - description: "129\n                                      \r\n\n      \
               \                                  6090"
             xml:
@@ -4961,7 +4961,7 @@ components:
             wrapped: false
         Payment:
           allOf:
-          - $ref: '#/components/schemas/Payment3'
+          - $ref: "#/components/schemas/Payment3"
           - description: "94A\n                                      \r\n\n      \
               \                                  X"
             xml:
@@ -5061,7 +5061,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -5086,7 +5086,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Contact'
+            $ref: "#/components/schemas/Contact"
         Communication:
           type: array
           description: |-
@@ -5100,7 +5100,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Communication'
+            $ref: "#/components/schemas/Communication"
       description: |-
         57A
         X
@@ -5116,7 +5116,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5168,7 +5168,7 @@ components:
       properties:
         HighLevelSummaryDetails:
           allOf:
-          - $ref: '#/components/schemas/HighLevelSummaryDetails'
+          - $ref: "#/components/schemas/HighLevelSummaryDetails"
           - xml:
               name: HighLevelSummaryDetails
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5177,7 +5177,7 @@ components:
               wrapped: false
         AccountDetails:
           allOf:
-          - $ref: '#/components/schemas/AccountDetails'
+          - $ref: "#/components/schemas/AccountDetails"
           - xml:
               name: AccountDetails
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5186,7 +5186,7 @@ components:
               wrapped: false
         GeneratedConsigmentDetails:
           allOf:
-          - $ref: '#/components/schemas/GeneratedConsigmentDetails'
+          - $ref: "#/components/schemas/GeneratedConsigmentDetails"
           - xml:
               name: GeneratedConsigmentDetails
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5202,10 +5202,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/GeneratedItemLevelConsignmentDetails'
+            $ref: "#/components/schemas/GeneratedItemLevelConsignmentDetails"
         FullDeclarationObject:
           allOf:
-          - $ref: '#/components/schemas/FullDeclarationObject'
+          - $ref: "#/components/schemas/FullDeclarationObject"
           - xml:
               name: FullDeclarationObject
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5227,7 +5227,7 @@ components:
       properties:
         Declaration:
           allOf:
-          - $ref: '#/components/schemas/Declaration3'
+          - $ref: "#/components/schemas/Declaration3"
           - xml:
               name: Declaration
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5281,7 +5281,7 @@ components:
             wrapped: false
         GoodsArrivalDateTime:
           allOf:
-          - $ref: '#/components/schemas/GoodsArrivalDateTime'
+          - $ref: "#/components/schemas/GoodsArrivalDateTime"
           - description: an..35
             xml:
               name: GoodsArrivalDateTime
@@ -5291,7 +5291,7 @@ components:
               wrapped: false
         DeclaredCustomsExitOffice:
           allOf:
-          - $ref: '#/components/schemas/DeclaredCustomsExitOffice'
+          - $ref: "#/components/schemas/DeclaredCustomsExitOffice"
           - xml:
               name: DeclaredCustomsExitOffice
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5316,7 +5316,7 @@ components:
             wrapped: false
         StatisticalValue:
           allOf:
-          - $ref: '#/components/schemas/StatisticalValue'
+          - $ref: "#/components/schemas/StatisticalValue"
           - xml:
               name: StatisticalValue
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5325,7 +5325,7 @@ components:
               wrapped: false
         TotalInvoiceAmount:
           allOf:
-          - $ref: '#/components/schemas/TotalInvoiceAmount'
+          - $ref: "#/components/schemas/TotalInvoiceAmount"
           - xml:
               name: TotalInvoiceAmount
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5342,7 +5342,7 @@ components:
             wrapped: false
         DateOfExit:
           allOf:
-          - $ref: '#/components/schemas/DateOfExit'
+          - $ref: "#/components/schemas/DateOfExit"
           - description: an..35
             xml:
               name: DateOfExit
@@ -5400,7 +5400,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/VATValue'
+            $ref: "#/components/schemas/VATValue"
         CustomsValue:
           type: array
           description: ""
@@ -5410,7 +5410,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/CustomsValue'
+            $ref: "#/components/schemas/CustomsValue"
         LicenseQuantity:
           type: array
           description: ""
@@ -5420,7 +5420,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/LicenseQuantity'
+            $ref: "#/components/schemas/LicenseQuantity"
         DutyTaxFee:
           type: array
           description: ""
@@ -5430,7 +5430,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee12'
+            $ref: "#/components/schemas/DutyTaxFee12"
       description: ""
       xml:
         name: GeneratedItemLevelConsignmentDetails
@@ -5444,7 +5444,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -5503,7 +5503,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address3'
+          - $ref: "#/components/schemas/Address3"
           - description: "04A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -5529,7 +5529,7 @@ components:
       properties:
         GrossMassMeasure:
           allOf:
-          - $ref: '#/components/schemas/GrossMassMeasure'
+          - $ref: "#/components/schemas/GrossMassMeasure"
           - description: "126\n                                      \r\n\n      \
               \                                  6018"
             xml:
@@ -5540,7 +5540,7 @@ components:
               wrapped: false
         NetNetWeightMeasure:
           allOf:
-          - $ref: '#/components/schemas/NetNetWeightMeasure'
+          - $ref: "#/components/schemas/NetNetWeightMeasure"
           - description: "128\n                                      \r\n\n      \
               \                                  6048"
             xml:
@@ -5573,7 +5573,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString'
+          - $ref: "#/components/schemas/DateTimeString"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/declarationInformationRetrieval/declarationSummary/v1
@@ -5593,7 +5593,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString1'
+          - $ref: "#/components/schemas/DateTimeString1"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -5622,7 +5622,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/GovernmentAgencyGoodsItem'
+            $ref: "#/components/schemas/GovernmentAgencyGoodsItem"
       description: |-
         67A
         X
@@ -5647,7 +5647,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/GovernmentAgencyGoodsItem1'
+            $ref: "#/components/schemas/GovernmentAgencyGoodsItem1"
       description: |-
         67A
         X
@@ -5690,10 +5690,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AEOMutualRecognitionParty'
+            $ref: "#/components/schemas/AEOMutualRecognitionParty"
         Buyer:
           allOf:
-          - $ref: '#/components/schemas/Buyer'
+          - $ref: "#/components/schemas/Buyer"
           - description: |-
               16A
 
@@ -5707,7 +5707,7 @@ components:
               wrapped: false
         Consignee:
           allOf:
-          - $ref: '#/components/schemas/Consignee'
+          - $ref: "#/components/schemas/Consignee"
           - description: |-
               27A
 
@@ -5721,7 +5721,7 @@ components:
               wrapped: false
         Consignment:
           allOf:
-          - $ref: '#/components/schemas/Consignment1'
+          - $ref: "#/components/schemas/Consignment1"
           - description: |-
               28A
 
@@ -5735,7 +5735,7 @@ components:
               wrapped: false
         Consignor:
           allOf:
-          - $ref: '#/components/schemas/Consignor2'
+          - $ref: "#/components/schemas/Consignor2"
           - description: |-
               30A
 
@@ -5749,7 +5749,7 @@ components:
               wrapped: false
         CustomsValuation:
           allOf:
-          - $ref: '#/components/schemas/CustomsValuation'
+          - $ref: "#/components/schemas/CustomsValuation"
           - description: |-
               41A
 
@@ -5763,7 +5763,7 @@ components:
               wrapped: false
         Destination:
           allOf:
-          - $ref: '#/components/schemas/Destination'
+          - $ref: "#/components/schemas/Destination"
           - description: |-
               99B
 
@@ -5788,10 +5788,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DomesticDutyTaxParty'
+            $ref: "#/components/schemas/DomesticDutyTaxParty"
         ExportCountry:
           allOf:
-          - $ref: '#/components/schemas/ExportCountry'
+          - $ref: "#/components/schemas/ExportCountry"
           - description: |-
               95B
 
@@ -5816,10 +5816,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/GovernmentAgencyGoodsItem2'
+            $ref: "#/components/schemas/GovernmentAgencyGoodsItem2"
         Importer:
           allOf:
-          - $ref: '#/components/schemas/Importer'
+          - $ref: "#/components/schemas/Importer"
           - description: |-
               74A
 
@@ -5833,7 +5833,7 @@ components:
               wrapped: false
         Invoice:
           allOf:
-          - $ref: '#/components/schemas/Invoice'
+          - $ref: "#/components/schemas/Invoice"
           - description: |-
               78A
 
@@ -5858,7 +5858,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Payer'
+            $ref: "#/components/schemas/Payer"
         PreviousDocument:
           type: array
           description: |-
@@ -5872,10 +5872,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/PreviousDocument1'
+            $ref: "#/components/schemas/PreviousDocument1"
         Seller:
           allOf:
-          - $ref: '#/components/schemas/Seller'
+          - $ref: "#/components/schemas/Seller"
           - description: |-
               09B
 
@@ -5900,10 +5900,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Surety'
+            $ref: "#/components/schemas/Surety"
         TradeTerms:
           allOf:
-          - $ref: '#/components/schemas/TradeTerms'
+          - $ref: "#/components/schemas/TradeTerms"
           - description: |-
               22B
 
@@ -5917,7 +5917,7 @@ components:
               wrapped: false
         UCR:
           allOf:
-          - $ref: '#/components/schemas/UCR'
+          - $ref: "#/components/schemas/UCR"
           - description: |-
               35B
 
@@ -5931,7 +5931,7 @@ components:
               wrapped: false
         Warehouse:
           allOf:
-          - $ref: '#/components/schemas/Warehouse'
+          - $ref: "#/components/schemas/Warehouse"
           - description: |-
               43B
 
@@ -5971,7 +5971,7 @@ components:
             wrapped: false
         Commodity:
           allOf:
-          - $ref: '#/components/schemas/Commodity'
+          - $ref: "#/components/schemas/Commodity"
           - description: |-
               23A
               X
@@ -6009,7 +6009,7 @@ components:
             wrapped: false
         Commodity:
           allOf:
-          - $ref: '#/components/schemas/Commodity1'
+          - $ref: "#/components/schemas/Commodity1"
           - description: |-
               23A
               X
@@ -6058,7 +6058,7 @@ components:
             wrapped: false
         StatisticalValueAmount:
           allOf:
-          - $ref: '#/components/schemas/StatisticalValueAmount'
+          - $ref: "#/components/schemas/StatisticalValueAmount"
           - description: |-
               114
               5218
@@ -6091,7 +6091,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AdditionalDocument1'
+            $ref: "#/components/schemas/AdditionalDocument1"
         AdditionalInformation:
           type: array
           description: |-
@@ -6105,7 +6105,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AdditionalInformation1'
+            $ref: "#/components/schemas/AdditionalInformation1"
         AEOMutualRecognitionParty:
           type: array
           description: 16C
@@ -6115,10 +6115,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AEOMutualRecognitionParty1'
+            $ref: "#/components/schemas/AEOMutualRecognitionParty1"
         Buyer:
           allOf:
-          - $ref: '#/components/schemas/Buyer'
+          - $ref: "#/components/schemas/Buyer"
           - description: |-
               16A
 
@@ -6132,7 +6132,7 @@ components:
               wrapped: false
         Commodity:
           allOf:
-          - $ref: '#/components/schemas/Commodity2'
+          - $ref: "#/components/schemas/Commodity2"
           - description: |-
               23A
 
@@ -6146,7 +6146,7 @@ components:
               wrapped: false
         Consignee:
           allOf:
-          - $ref: '#/components/schemas/Consignee'
+          - $ref: "#/components/schemas/Consignee"
           - description: |-
               27A
 
@@ -6160,7 +6160,7 @@ components:
               wrapped: false
         Consignor:
           allOf:
-          - $ref: '#/components/schemas/Consignor3'
+          - $ref: "#/components/schemas/Consignor3"
           - description: |-
               30A
 
@@ -6174,7 +6174,7 @@ components:
               wrapped: false
         CustomsValuation:
           allOf:
-          - $ref: '#/components/schemas/CustomsValuation1'
+          - $ref: "#/components/schemas/CustomsValuation1"
           - description: |-
               41A
 
@@ -6188,7 +6188,7 @@ components:
               wrapped: false
         Destination:
           allOf:
-          - $ref: '#/components/schemas/Destination'
+          - $ref: "#/components/schemas/Destination"
           - description: |-
               99B
 
@@ -6213,10 +6213,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DomesticDutyTaxParty1'
+            $ref: "#/components/schemas/DomesticDutyTaxParty1"
         ExportCountry:
           allOf:
-          - $ref: '#/components/schemas/ExportCountry'
+          - $ref: "#/components/schemas/ExportCountry"
           - description: |-
               95B
 
@@ -6241,7 +6241,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/GovernmentProcedure'
+            $ref: "#/components/schemas/GovernmentProcedure"
         Origin:
           type: array
           description: |-
@@ -6255,7 +6255,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Origin'
+            $ref: "#/components/schemas/Origin"
         Packaging:
           type: array
           description: |-
@@ -6269,7 +6269,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Packaging'
+            $ref: "#/components/schemas/Packaging"
         PreviousDocument:
           type: array
           description: |-
@@ -6283,10 +6283,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/PreviousDocument'
+            $ref: "#/components/schemas/PreviousDocument"
         Seller:
           allOf:
-          - $ref: '#/components/schemas/Seller'
+          - $ref: "#/components/schemas/Seller"
           - description: |-
               09B
 
@@ -6300,7 +6300,7 @@ components:
               wrapped: false
         UCR:
           allOf:
-          - $ref: '#/components/schemas/UCR'
+          - $ref: "#/components/schemas/UCR"
           - description: |-
               35B
 
@@ -6314,7 +6314,7 @@ components:
               wrapped: false
         ValuationAdjustment:
           allOf:
-          - $ref: '#/components/schemas/ValuationAdjustment'
+          - $ref: "#/components/schemas/ValuationAdjustment"
           - description: |-
               39B
 
@@ -6484,7 +6484,7 @@ components:
             wrapped: false
         CreatedDateTime:
           allOf:
-          - $ref: '#/components/schemas/CreatedDateTime1'
+          - $ref: "#/components/schemas/CreatedDateTime1"
           - description: |-
               an..35
               2380
@@ -6496,7 +6496,7 @@ components:
               wrapped: false
         PrelodgedDateTime:
           allOf:
-          - $ref: '#/components/schemas/PrelodgedDateTime'
+          - $ref: "#/components/schemas/PrelodgedDateTime"
           - description: |-
               an..35
               2380
@@ -6520,7 +6520,7 @@ components:
             wrapped: false
         P2PDateTime:
           allOf:
-          - $ref: '#/components/schemas/P2PDateTime'
+          - $ref: "#/components/schemas/P2PDateTime"
           - description: |-
               an..35
               2380
@@ -6532,7 +6532,7 @@ components:
               wrapped: false
         FinalisedDateTime:
           allOf:
-          - $ref: '#/components/schemas/FinalisedDateTime'
+          - $ref: "#/components/schemas/FinalisedDateTime"
           - description: |-
               an..35
               2380
@@ -6575,7 +6575,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -6600,7 +6600,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Contact'
+            $ref: "#/components/schemas/Contact"
         Communication:
           type: array
           description: |-
@@ -6614,7 +6614,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Communication'
+            $ref: "#/components/schemas/Communication"
       description: |-
         74A
 
@@ -6689,7 +6689,7 @@ components:
       properties:
         ItemChargeAmount:
           allOf:
-          - $ref: '#/components/schemas/ItemChargeAmount'
+          - $ref: "#/components/schemas/ItemChargeAmount"
           - description: "112\n                                      \r\n\n      \
               \                                  5116"
             xml:
@@ -6920,7 +6920,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/AmountAmount'
+            $ref: "#/components/schemas/AmountAmount"
         ID:
           type: array
           description: |-
@@ -6988,7 +6988,7 @@ components:
               wrapped: false
         GuaranteeOffice:
           allOf:
-          - $ref: '#/components/schemas/GuaranteeOffice'
+          - $ref: "#/components/schemas/GuaranteeOffice"
           - description: 14C
             xml:
               name: GuaranteeOffice
@@ -7078,7 +7078,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -7250,7 +7250,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -7330,7 +7330,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ObligationGuarantee'
+            $ref: "#/components/schemas/ObligationGuarantee"
       description: |-
         94A
         X
@@ -7432,7 +7432,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/ObligationGuarantee1'
+            $ref: "#/components/schemas/ObligationGuarantee1"
       description: |-
         94A
         X
@@ -7459,7 +7459,7 @@ components:
             wrapped: false
         TaxAssessedAmount:
           allOf:
-          - $ref: '#/components/schemas/TaxAssessedAmount'
+          - $ref: "#/components/schemas/TaxAssessedAmount"
           - description: "120\n                                            \r\n\n\
               \                                              5504"
             xml:
@@ -7470,7 +7470,7 @@ components:
               wrapped: false
         PaymentAmount:
           allOf:
-          - $ref: '#/components/schemas/PaymentAmount'
+          - $ref: "#/components/schemas/PaymentAmount"
           - description: "378\n                                            \r\n\n\
               \                                              5082"
             xml:
@@ -7592,7 +7592,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString3'
+          - $ref: "#/components/schemas/DateTimeString3"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/FullDeclarationDataRetrievalService
@@ -7811,7 +7811,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString'
+          - $ref: "#/components/schemas/DateTimeString"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/declarationInformationRetrieval/declarationSummary/v1
@@ -7831,7 +7831,7 @@ components:
       properties:
         DateTimeString:
           allOf:
-          - $ref: '#/components/schemas/DateTimeString1'
+          - $ref: "#/components/schemas/DateTimeString1"
           - xml:
               name: DateTimeString
               namespace: http://gov.uk/customs/declarationInformationRetrieval/status/v2
@@ -7912,7 +7912,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: "04A\n                                \r\n\n            \
               \                      X"
             xml:
@@ -7931,7 +7931,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Contact'
+            $ref: "#/components/schemas/Contact"
         Communication:
           type: array
           description: "25A\n                                \r\n\n              \
@@ -7942,7 +7942,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Communication'
+            $ref: "#/components/schemas/Communication"
       description: |-
         09B
 
@@ -8055,7 +8055,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -8161,7 +8161,7 @@ components:
             wrapped: false
         Address:
           allOf:
-          - $ref: '#/components/schemas/Address'
+          - $ref: "#/components/schemas/Address"
           - description: |-
               04A
 
@@ -8352,10 +8352,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee'
+            $ref: "#/components/schemas/DutyTaxFee"
         GoodsShipment:
           allOf:
-          - $ref: '#/components/schemas/GoodsShipment'
+          - $ref: "#/components/schemas/GoodsShipment"
           - description: |-
               67A
               X
@@ -8467,10 +8467,10 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/DutyTaxFee2'
+            $ref: "#/components/schemas/DutyTaxFee2"
         GoodsShipment:
           allOf:
-          - $ref: '#/components/schemas/GoodsShipment1'
+          - $ref: "#/components/schemas/GoodsShipment1"
           - description: |-
               67A
               X
@@ -8638,7 +8638,7 @@ components:
             attribute: false
             wrapped: false
           items:
-            $ref: '#/components/schemas/Seal'
+            $ref: "#/components/schemas/Seal"
       description: |-
         31B
 
@@ -8841,7 +8841,7 @@ components:
       properties:
         QuantityQuantity:
           allOf:
-          - $ref: '#/components/schemas/QuantityQuantity'
+          - $ref: "#/components/schemas/QuantityQuantity"
           - description: "502\n                                      \r\n\n      \
               \                                  n..16,6\n                       \
               \               \r\n\n                                        6061"
